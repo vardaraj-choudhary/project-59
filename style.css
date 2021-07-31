@@ -1,0 +1,27 @@
+.profile {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+}
+div {
+    display: block;
+}
+#about {
+    position: absolute;
+    height: 800px;
+    color: black;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(#b3e8aa 0%, #fb0303 100%);
+    display: table;
+    text-align: center;
+    z-index: 9;
+}
+body {
+    margin: 0px;
+    padding-top: 800px;
+    text-align: center;
